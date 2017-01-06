@@ -1,0 +1,3 @@
+All scripts written by Kupferkarpfen are under the CC BY-NC-SA 4.0 license. This means you can do whatever you like with them, as long as it is non commercial (you are not allowed to sell the scripts, monetizing a server that uses the scripts is ok), it is redistributed under the same license and you have to leave the original author/license comment in the files (but you may move it around inside the files). Feel free to adapt the scripts and optimize/change them for your server.
+
+Contact me at: kupferkarpfen@mailbox.org if you have any questions

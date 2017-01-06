@@ -1,0 +1,43 @@
+// Written by Kupferkarpfen
+// License: CC BY-NC-SA 4.0
+
+author = "Kupferkarpfen/Harry | v4.0.16";
+onLoadName = "AltisLife";
+onLoadMission = "based on AltisLife RPG by Tonic";
+loadScreen = "images\welcome.paa";
+disableChannels[] = { 0, 1, 2, 6 };
+joinUnassigned = 1;
+respawn = BASE;
+respawndelay = 4;
+disabledAI = 1; 
+enableDebugConsole = 1;
+respawnDialog = 0;
+respawnButton = 0;
+onPauseScript[] = { XY_fnc_onPause };
+disableRandomization[] = {"All"};
+
+showHUD[] = { true, true, false, false, false, true, true, true };
+
+class Header {
+    gameType = RPG;
+    minPlayers = 1;
+    maxPlayers = 150;
+};
+
+wreckManagerMode = 0;
+wreckLimit = 999;
+wreckRemovalMinTime = 9999;
+wreckRemovalMaxTime = 9999;
+
+corpseManagerMode = 0;
+corpseLimit = 999;
+corpseRemovalMinTime = 9999;
+corpseRemovalMaxTime = 9999;
+
+#include "dialogs\_all.h"
+#include "CfgRscTitles.h"
+#include "CfgFunctions.h"
+#include "CfgSounds.h"
+#include "CfgDebriefing.h"
+#include "CfgRemoteExec.h"
+#include "infiSTAR_AdminMenu.hpp"
