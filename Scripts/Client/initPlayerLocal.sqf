@@ -113,7 +113,7 @@ waitUntil { uisleep 2 + (random 2); missionNamespace getVariable["XY_playerNameA
 
 XY_isAdmin = (getPlayerUID player) in XY_ADMINLIST;
 XY_showAdminMessages = XY_isAdmin;
-XY_kvs_token = floor(round(999999));
+XY_kvs_token = floor(random 999999);
 [XY_kvs_token, player, playerSide, profileName] remoteExec ["XYDB_fnc_requestKVS", 2];
 
 // Wait for key-value-store, house list, etc...
